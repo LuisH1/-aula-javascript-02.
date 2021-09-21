@@ -1,0 +1,42 @@
+1)      Criar 3 variáveis com tipos Objeto Number para guardar os valores:
+
+a)       300, 999 e 21.
+
+b)      Exibir no console os valores das variáveis.
+
+>>>> 
+
+let primeira = new Number (300)
+console.log(primeira)
+let segunda = new Number (999)
+console.log (segunda)
+let terceira = new Number (21)
+console.log(terceira)
+
+2)      Exibir no console os valores de 4 propriedades do tipo objeto Number.
+
+>> let primeira = new Number(350)
+    console.log(primeira)
+    console.log(Number.MAX_SAFE_INTEGER)
+let segunda = new Number(100)
+    console.log(segunda)
+    console.log(Number.MIN_VALUE)
+let terceira = new Number(440)
+    console.log(terceira)
+    console.log(Number.POSITIVE_INFINITY)
+let quarta = new Number (200)
+console.log(quarta)
+console.log(Number.NaN)
+
+3)      Criar 1 variável para receber o valor 150, em seguida faça:
+
+a)       Exibir no console o valor da variável.
+
+b)      Converter para string o valor.
+
+c)       Exibir no console, o valor convertido
+
+
+>>>  let primeira = new Number(350);
+    console.log(primeira);
+    console.log(primeira.toString())

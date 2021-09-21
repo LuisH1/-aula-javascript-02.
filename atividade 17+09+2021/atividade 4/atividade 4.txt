@@ -1,0 +1,60 @@
+1)      Criar variáveis para:
+
+a)       Armazenar os valores: 7, -55, 389, 1000, 3.1459, -46.267;
+
+b)      As variáveis deverão ser do tipo objeto Number;
+
+c)       Mostrar os valores no console;
+
+d)      Somar a primeira variável com a última variável;
+
+e)      Mostrar os valores no console;
+
+f)        Multiplicar a primeira variável com a terceira variável;
+
+g)       Mostrar os valores no console;
+
+h)      Dividir a quarta variável pela quinta variável;
+
+i)        Mostrar os valores no console.
+
+>>>> let a = new Number(7);
+let b = new Number(-55);
+let c = new Number(389);
+let d = new Number(1000);
+let e = new Number(3.1459);
+let f= new Number(-46.267);
+console.log(a, b , c , d , e , f)
+console.log( a + f)
+console.log (a * c)
+console.log (d / e)
+
+2)      Criar variáveis para:
+
+a)       Armazenar os valores: 10, 3, 9, 99.9, 721;
+
+b)      As variáveis deverão ser do tipo objeto Number.
+
+c)       Mostrar os valores no console.
+
+d)      Validar se a primeira variável é menor que o valor Number.MAX_VALUE;
+
+e)      Mostrar o resultado e valores no console;
+
+f)        Validar se a segunda variável possui valor igual a NaN;
+
+g)       Mostrar o resultado e valores no console;
+
+h)      Validar se a quinta variável é menor ou igual a terceira variável;
+
+i)        Mostrar o resultado e valores no console.
+
+>> let a = new Number(10);
+let b = new Number(3);
+let c = new Number(9);
+let d = new Number(99.9);
+let e = new Number(721);
+console.log(a, b , c , d , e )
+console.log(a < Number.MAX_VALUE)
+console.log(b == NaN)
+console.log (d <= c)

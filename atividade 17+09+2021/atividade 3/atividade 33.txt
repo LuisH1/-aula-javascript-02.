@@ -1,0 +1,42 @@
+1)      Criar bloco de código que mostra, no console, o resto da divisão de 25 por 3.
+
+>>function divisao(){
+let x = 25
+let y = 3
+console.log(x % y)
+}
+console.log(divisao())
+
+2)      Criar bloco de código que mostra, no console, a concatenação das variáveis abaixo:
+
+a)       texto1 = "Programa Start - "
+
+b)      texto2 = "formação Front end: "
+
+c)       texto3 = "eu faço parte dessa oportunidade."
+
+>> let texto1 = "programa Star " 
+let texto2 = " formação Front end "
+let texto3 = " eu faço parte dessa oportunidade "
+console.log(texto1 + texto2 + texto3)
+
+
+3)      Criar bloco de código que mostra, no console, o resultado da concatenação das variáveis abaixo:
+
+a)       texto1 = "Mariazinha tem "
+
+b)      idade =  9
+
+c)       texto2 = "anos e "
+
+d)      quantidade_irmaos = 7
+
+e)      texto3 = " irmãos."
+
+
+>>> let texto1 = "Mariazinha tem " 
+let idade1 = 9
+let texto2 = " anos e "
+let quantidade_irmaõs =7 
+let texto3 = " irmãos "
+console.log(texto1 +idade1 + texto2  + quantidade_irmaõs+ texto3)

@@ -1,0 +1,65 @@
+ 1)      Determine o valor lógico para cada uma das expressões a seguir e escreva o resultado no console:
+
+a.       Dado que x = 5 e y = 8, valide se os valores e os tipos são iguais.
+
+ >> function numeros(){
+    let x = 5
+    let y = 8
+    let  resultados = (x == y)
+    console.log(" são iguais " + resultados)
+    console.log(resultados.typeof)
+}
+numeros()
+
+
+b.       Dado que x = 6 e y = “6”, valide se os valores e os tipos são diferentes.
+
+>>c  let x = 6
+    let y = 6
+    let  resultados = (x != y)
+    console.log("são diferentes " + resultados)
+    console.log(resultados.typeof)
+
+c.       Dado que x = “7” e y = 7, valide se os valores são iguais.
+
+>> let x = 7
+    let y = 7
+    let  resultados = (x == y)
+    console.log("os valores são iguais " + resultados)
+
+
+2)      Declare uma variável chamada nome.
+
+a)       Atribua a ela o valor “Fulano”.
+
+b)      Exiba no console a seguinte mensagem: “ Boa noite, Fulano! ”.
+
+> Forma 1>>  	let nome = "Fulano"
+		console.log("Boa noite,Fulano!") /////////   
+
+>>forma 2 >> ////
+	let nome = "Fulano!"	
+	console.log("Boa noite," + nome)
+
+
+3)      Considere x = x + y, dado que x = 10 e y = 5.
+
+a)       Use o operador de atribuição correto que resultará em x = 15 numa expressão reduzida.
+
+>> let sol = 10+5; console.log(sol)
+
+b)      Use o operador de atribuição correto que resultará em x = 50 numa expressão reduzida.
+
+>> let lua = 100-50; console.log(lua)
+
+c)       Use o operador de atribuição correto que resultará em x = 0 numa expressão reduzida.
+
+>>let mar = 5-5; console.log(mar)
+
+d)      Use o operador de atribuição correto que resultará em x = 2 numa expressão reduzida.
+
+>>let fogo = 10/5;console.log(fogo)
+
+e)      Use o operador de atribuição correto que resultará em x = 5 numa expressão reduzida.
+
+>>>let terra = 10-5;console.log(terra)
